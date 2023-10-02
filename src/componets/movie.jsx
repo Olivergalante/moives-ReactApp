@@ -20,7 +20,6 @@ export const MovieView = () => {
 
 	const handleSubmit = (e) => {
 		try {
-			console.log(e);
 			getMovie();
 			setMovieTitle("");
 		} catch (error) {
@@ -58,7 +57,6 @@ export const MovieView = () => {
 					</div>
 				);
 			})}
-			<div></div>
 		</>
 	);
 };
